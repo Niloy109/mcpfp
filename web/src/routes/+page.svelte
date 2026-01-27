@@ -55,6 +55,7 @@
                         <option value="mute">mute</option>
                         <option value="jail">jail</option>
                         <option value="ban">ban</option>
+                        <option value="kick">kick</option>
                     </select>
 
                     <p>Props</p>
