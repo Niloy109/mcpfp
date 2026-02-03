@@ -40,7 +40,7 @@
         <h3>Endpoints</h3>
         <p>Minecraft full body skin image with types for custom img gen</p>
         <code class="get">GET /api/pfp/{types}/{username}.png</code>
-        <p>Available types: <code>normal</code>,<code>warn</code>,<code>mute</code>,<code>jail</code>,<code>ban</code>,<code>kick</code></p>
+        <p>Available types: <code>normal</code>,<code>warn</code>,<code>mute</code>,<code>jail</code>,<code>ban</code>,<code>kick</code>, <code>verified</code></p>
         <p>Example: <code class="link">{$page.url}api/pfp/{overlay}/{user}.png{query}</code></p>
         <div class="box">
             <div class="imgbox">
