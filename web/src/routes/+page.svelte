@@ -56,6 +56,7 @@
                         <option value="jail">jail</option>
                         <option value="ban">ban</option>
                         <option value="kick">kick</option>
+                        <option value="verified">verified</option>
                     </select>
 
                     <p>Props</p>
