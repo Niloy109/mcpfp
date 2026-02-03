@@ -10,7 +10,7 @@ const available_props: { [key: string]: Image | null } = {
 const overlays: { [key: string]: Image | null } = {
     ban: null, warn: null,
     jail: null, mute: null,
-    kick: null,
+    kick: null, verified: null,
 };
 
 let shading: Image;
@@ -78,6 +78,9 @@ async function generatePfp(username: string, ctx: SKRSContext2D, { overlay = "no
 		} else if(overlay=="kick") {
 			ctx.globalAlpha = 0.6;
 			ctx.drawImage(overlays["kick"]!, 0, 0, 18.5, 20)
+		} else if(overlay=="verified") {
+			ctx.globalAlpha = 0.6;
+			ctx.drawImage(overlays["verified"]!, 0, 0, 18.5, 20)
 		}
 
 	} catch (e) {
