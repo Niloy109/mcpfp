@@ -28,8 +28,7 @@
     ])
 </script>
 <main>
-    <h2><img class="img" src="https://minotar.net/avatar/Suss" alt="steve :)"> mcpfp - modified</h2>
-    <h3>a modifed version of <a href="https://github.com/MauritsWilke/mcpfp">MauritsWilke/mcpfp</a> to use custom image gen</h3>
+    <h2><img class="img" src="https://minotar.net/avatar/Suss" alt="steve :)"> Minecraft PFP</h2>
 
     <div class="docs">
         <h3>Base URL</h3>
